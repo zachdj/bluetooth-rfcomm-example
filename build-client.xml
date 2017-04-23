@@ -2,9 +2,10 @@
 
     <property name="src.dir"     value="src"/>
 
-    <property name="lib.dir"     value="lib"/>
+    <property name="lib.dir"     value="lib-arm"/>
     <path id="classpath">
         <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${lib.dir}" includes="**/*.so"/>
     </path>
 
     <property name="build.dir"   value="build"/>
